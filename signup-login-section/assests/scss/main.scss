@@ -1,0 +1,24 @@
+$theme: #f48225;
+$white: #fff;
+$black: #000;
+$theme2: #222426;
+#form2 {
+    display: none;
+}
+.form-signin .card {
+padding: 20px;
+box-shadow: 1px 2px 4px rgba($color: $black, $alpha: .1);
+}
+.btn-theme {
+background-color: $theme !important;
+color: $white !important;
+border-color: $theme !important;
+&:hover{
+    background-color: $theme !important;
+    color: #fff;
+    }
+}
+
+body {
+background-color: #f0f0f1;
+}
