@@ -1,0 +1,63 @@
+$theme: #f48225;
+$white: #fff;
+$black: #000;
+$theme2: #222426;
+.ktestimonials2 {
+    .carousel-indicators [data-bs-target] {
+        background-color: $theme2;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: relative;
+        top: 60px;
+     }
+    .carousel-inner {
+        width: 80%;
+        margin: 0px auto;
+        .designation {
+            color: rgba(0, 0, 0, 0.5);
+            font-weight: 400;
+        }
+        .designation ~ p { 
+            font-style: italic;
+        }
+        img.rounded-circle {
+            width: 150px;
+        }
+    }
+    .carousel-control-next, .carousel-control-prev {
+        opacity: 1;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        background-color: $theme2;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-size: 24px 24px;
+    }
+    .fa-quote-left {
+        transform: rotate(25deg);
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.2);
+        position: relative;
+        top: -12px;
+    }
+    .fa-star {
+        font-size: 24px;
+        margin: 0 1.5px;
+        color: $theme;
+    }
+}
+.md-none {
+    @media (min-width: 768px) {
+        display: none !important;
+    }
+}
+.m-none {
+    @media (max-width: 767px) {
+        display: none !important;
+    }
+}
+#mdata {
+    text-align: center;
+}
